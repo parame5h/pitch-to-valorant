@@ -99,6 +99,6 @@ SOVA'S EVALUATION:
     result = json.loads(content)
     
     # Ensure sources is always empty for Sage
-    result['sources'] = []
-    
+    result["sources"] = []
+
     return result
